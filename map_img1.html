@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_0c66379fd817470f9b8e2788aad8518f {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0c66379fd817470f9b8e2788aad8518f" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_0c66379fd817470f9b8e2788aad8518f = L.map(
+                                  'map_0c66379fd817470f9b8e2788aad8518f',
+                                  {center: [37.5,126.9],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_350ec4f6fd9a43ebb1d1e67d734cd081 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_0c66379fd817470f9b8e2788aad8518f);
+        
+    
+
+            var marker_65bebb61138b4b23a5fe5e247e882437 = L.marker(
+                [37,126],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_ed400b9bcc67437490b68dcd880d3fec = L.popup({maxWidth: '300'});
+
+            
+                var html_95a617592faf4ef59e7a9464691f60e3 = $('<div id="html_95a617592faf4ef59e7a9464691f60e3" style="width: 100.0%; height: 100.0%;">테스트지점</div>')[0];
+                popup_ed400b9bcc67437490b68dcd880d3fec.setContent(html_95a617592faf4ef59e7a9464691f60e3);
+            
+
+            marker_65bebb61138b4b23a5fe5e247e882437.bindPopup(popup_ed400b9bcc67437490b68dcd880d3fec);
+
+            
+        
+    
+
+            var marker_a754401a37ae4429a647c8a7e882a635 = L.marker(
+                [37.3,126],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_13338d6f405c411e96863d13363f5f84 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6974ff1ddb34f07a52b3bd4bc0f980e = $('<div id="html_f6974ff1ddb34f07a52b3bd4bc0f980e" style="width: 100.0%; height: 100.0%;">테스트지점</div>')[0];
+                popup_13338d6f405c411e96863d13363f5f84.setContent(html_f6974ff1ddb34f07a52b3bd4bc0f980e);
+            
+
+            marker_a754401a37ae4429a647c8a7e882a635.bindPopup(popup_13338d6f405c411e96863d13363f5f84);
+
+            
+        
+    
+
+            var marker_1fcdb5c4e85f41fcbb51dd79fa7c3ab4 = L.marker(
+                [37.5991696223151,126.95950527754184],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_6d4911176d6943b3ac94db67478a21be = L.popup({maxWidth: '300'});
+
+            
+                var html_cdd3e5b122474645809cd308d3794a44 = $('<div id="html_cdd3e5b122474645809cd308d3794a44" style="width: 100.0%; height: 100.0%;">신흥모피명품전문크리닝.</div>')[0];
+                popup_6d4911176d6943b3ac94db67478a21be.setContent(html_cdd3e5b122474645809cd308d3794a44);
+            
+
+            marker_1fcdb5c4e85f41fcbb51dd79fa7c3ab4.bindPopup(popup_6d4911176d6943b3ac94db67478a21be);
+
+            
+        
+    
+
+            var marker_3d4dd1f6d81d4dff88bd2d420a633fe6 = L.marker(
+                [37.60015896037769,126.95827976042075],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_9ef2661e87a94fa6b7edb75303486114 = L.popup({maxWidth: '300'});
+
+            
+                var html_38a50c004a90423aa6c6d55fc2b8c120 = $('<div id="html_38a50c004a90423aa6c6d55fc2b8c120" style="width: 100.0%; height: 100.0%;">GS25</div>')[0];
+                popup_9ef2661e87a94fa6b7edb75303486114.setContent(html_38a50c004a90423aa6c6d55fc2b8c120);
+            
+
+            marker_3d4dd1f6d81d4dff88bd2d420a633fe6.bindPopup(popup_9ef2661e87a94fa6b7edb75303486114);
+
+            
+        
+    
+
+            var marker_4e8d56fdfcc34cb492425fd3bf01e5ec = L.marker(
+                [37.60069470246659,126.95874792945385],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_9dc1c287e5834b61aefc152099720148 = L.popup({maxWidth: '300'});
+
+            
+                var html_8998022b8d264d8d8711c2a65dde42ce = $('<div id="html_8998022b8d264d8d8711c2a65dde42ce" style="width: 100.0%; height: 100.0%;">세검정정류장</div>')[0];
+                popup_9dc1c287e5834b61aefc152099720148.setContent(html_8998022b8d264d8d8711c2a65dde42ce);
+            
+
+            marker_4e8d56fdfcc34cb492425fd3bf01e5ec.bindPopup(popup_9dc1c287e5834b61aefc152099720148);
+
+            
+        
+    
+
+            var marker_739f477e17de4ba3a281316031b0d125 = L.marker(
+                [37.61004751367707,126.97626371692706],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_a68a3c4e23d0492fa190f993b0e34e62 = L.popup({maxWidth: '300'});
+
+            
+                var html_9a093c37d8ee4f31b64fbebd512ce95c = $('<div id="html_9a093c37d8ee4f31b64fbebd512ce95c" style="width: 100.0%; height: 100.0%;">안성타워內 굿모닝파워공인중개사.</div>')[0];
+                popup_a68a3c4e23d0492fa190f993b0e34e62.setContent(html_9a093c37d8ee4f31b64fbebd512ce95c);
+            
+
+            marker_739f477e17de4ba3a281316031b0d125.bindPopup(popup_a68a3c4e23d0492fa190f993b0e34e62);
+
+            
+        
+    
+
+            var marker_94990861ce974127ab0c818cf7d03eaf = L.marker(
+                [37.607227497954,126.9587814478111],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_f03b1f41925f44898fb1f92dd393984c = L.popup({maxWidth: '300'});
+
+            
+                var html_1dcc5898749b42fc89b7d99c06d03e19 = $('<div id="html_1dcc5898749b42fc89b7d99c06d03e19" style="width: 100.0%; height: 100.0%;">복실 손뜨기.</div>')[0];
+                popup_f03b1f41925f44898fb1f92dd393984c.setContent(html_1dcc5898749b42fc89b7d99c06d03e19);
+            
+
+            marker_94990861ce974127ab0c818cf7d03eaf.bindPopup(popup_f03b1f41925f44898fb1f92dd393984c);
+
+            
+        
+    
+
+            var marker_bba47fce635446e98584538561cd514c = L.marker(
+                [37.57189585575494,127.01093986576858],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_5a13588891b14c8eb61dca3a27d910bb = L.popup({maxWidth: '300'});
+
+            
+                var html_c49cd0da6b4a4b64a7de716d22f0c351 = $('<div id="html_c49cd0da6b4a4b64a7de716d22f0c351" style="width: 100.0%; height: 100.0%;">24시 동대문 설렁탕.</div>')[0];
+                popup_5a13588891b14c8eb61dca3a27d910bb.setContent(html_c49cd0da6b4a4b64a7de716d22f0c351);
+            
+
+            marker_bba47fce635446e98584538561cd514c.bindPopup(popup_5a13588891b14c8eb61dca3a27d910bb);
+
+            
+        
+    
+
+            var marker_bde21ed8c1c84f77898207f662d2065e = L.marker(
+                [37.574270557740064,127.01909338960732],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_9d8bbbd4d67247659298e8e2c80f6405 = L.popup({maxWidth: '300'});
+
+            
+                var html_7a1e67c12d524d808c0eb095fc7d0a05 = $('<div id="html_7a1e67c12d524d808c0eb095fc7d0a05" style="width: 100.0%; height: 100.0%;">서울전문학교.</div>')[0];
+                popup_9d8bbbd4d67247659298e8e2c80f6405.setContent(html_7a1e67c12d524d808c0eb095fc7d0a05);
+            
+
+            marker_bde21ed8c1c84f77898207f662d2065e.bindPopup(popup_9d8bbbd4d67247659298e8e2c80f6405);
+
+            
+        
+    
+
+            var marker_7f1a421e665547b1baa66859bc08c810 = L.marker(
+                [37.57074463392477,127.00262338744986],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_f903ae60887b44e4a96ed7109499cb44 = L.popup({maxWidth: '300'});
+
+            
+                var html_4a58e54f82e649ac911eb993705a2a11 = $('<div id="html_4a58e54f82e649ac911eb993705a2a11" style="width: 100.0%; height: 100.0%;">서울 종묘농약</div>')[0];
+                popup_f903ae60887b44e4a96ed7109499cb44.setContent(html_4a58e54f82e649ac911eb993705a2a11);
+            
+
+            marker_7f1a421e665547b1baa66859bc08c810.bindPopup(popup_f903ae60887b44e4a96ed7109499cb44);
+
+            
+        
+    
+
+            var marker_3969aeace5ac45e79befe90e3e0901f3 = L.marker(
+                [37.57074463392477,127.00262338744986],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_f82f61acac4d42118bd4f7ddbc96e540 = L.popup({maxWidth: '300'});
+
+            
+                var html_01306913160447eead3751d07b91b91e = $('<div id="html_01306913160447eead3751d07b91b91e" style="width: 100.0%; height: 100.0%;">서울 종묘농약</div>')[0];
+                popup_f82f61acac4d42118bd4f7ddbc96e540.setContent(html_01306913160447eead3751d07b91b91e);
+            
+
+            marker_3969aeace5ac45e79befe90e3e0901f3.bindPopup(popup_f82f61acac4d42118bd4f7ddbc96e540);
+
+            
+        
+    
+
+            var marker_1b47cab1889d42f8ab9ed40177b58185 = L.marker(
+                [37.57596032499453,126.99927072516557],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_d9ef0147f66a4b2a9e6a946aa39468fb = L.popup({maxWidth: '300'});
+
+            
+                var html_3eabc89bb4e14f97ae4d39a275196118 = $('<div id="html_3eabc89bb4e14f97ae4d39a275196118" style="width: 100.0%; height: 100.0%;">삼성카드빌딩</div>')[0];
+                popup_d9ef0147f66a4b2a9e6a946aa39468fb.setContent(html_3eabc89bb4e14f97ae4d39a275196118);
+            
+
+            marker_1b47cab1889d42f8ab9ed40177b58185.bindPopup(popup_d9ef0147f66a4b2a9e6a946aa39468fb);
+
+            
+        
+    
+
+            var marker_d6d618b8f7fa4c32882864cde69a59b7 = L.marker(
+                [37.582407857551246,126.99774653014185],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_4b826b7d9ba94959abdd522fb6559566 = L.popup({maxWidth: '300'});
+
+            
+                var html_64a977a490f6495ab3ce77c49e109a04 = $('<div id="html_64a977a490f6495ab3ce77c49e109a04" style="width: 100.0%; height: 100.0%;">TIFS(성우빌딩)</div>')[0];
+                popup_4b826b7d9ba94959abdd522fb6559566.setContent(html_64a977a490f6495ab3ce77c49e109a04);
+            
+
+            marker_d6d618b8f7fa4c32882864cde69a59b7.bindPopup(popup_4b826b7d9ba94959abdd522fb6559566);
+
+            
+        
+    
+
+            var marker_06a062098a5540d38ef3a4023254c2c0 = L.marker(
+                [37.582407857551246,126.99774653014185],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_07d799652e5d43dbb867dd3c3cf994bd = L.popup({maxWidth: '300'});
+
+            
+                var html_59d2b8ecaa6d4234b08e9f6521aa4ea7 = $('<div id="html_59d2b8ecaa6d4234b08e9f6521aa4ea7" style="width: 100.0%; height: 100.0%;">TIFS(성우빌딩)</div>')[0];
+                popup_07d799652e5d43dbb867dd3c3cf994bd.setContent(html_59d2b8ecaa6d4234b08e9f6521aa4ea7);
+            
+
+            marker_06a062098a5540d38ef3a4023254c2c0.bindPopup(popup_07d799652e5d43dbb867dd3c3cf994bd);
+
+            
+        
+    
+
+            var marker_55a4dd4d9cbf4deca05d0eb864f22b6c = L.marker(
+                [37.58186070509516,127.00229395758608],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_6f0ef782f0844eecbbe64ae7cc681912 = L.popup({maxWidth: '300'});
+
+            
+                var html_0224140439f748bba92cf2953f7fd171 = $('<div id="html_0224140439f748bba92cf2953f7fd171" style="width: 100.0%; height: 100.0%;">KFC</div>')[0];
+                popup_6f0ef782f0844eecbbe64ae7cc681912.setContent(html_0224140439f748bba92cf2953f7fd171);
+            
+
+            marker_55a4dd4d9cbf4deca05d0eb864f22b6c.bindPopup(popup_6f0ef782f0844eecbbe64ae7cc681912);
+
+            
+        
+    
+
+            var marker_8cc475ab40054352aa1077af0a8ea563 = L.marker(
+                [37.568748573616915,126.9851493859376],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_501453b703f44bf6967ba9e1dc997f9c = L.popup({maxWidth: '300'});
+
+            
+                var html_4a06e60ec8ab40b0be74076352a5cea0 = $('<div id="html_4a06e60ec8ab40b0be74076352a5cea0" style="width: 100.0%; height: 100.0%;">영안빌딩(미샤)</div>')[0];
+                popup_501453b703f44bf6967ba9e1dc997f9c.setContent(html_4a06e60ec8ab40b0be74076352a5cea0);
+            
+
+            marker_8cc475ab40054352aa1077af0a8ea563.bindPopup(popup_501453b703f44bf6967ba9e1dc997f9c);
+
+            
+        
+    
+
+            var marker_95e7acdde9ae48d2b4ccd7a7fc30c5b9 = L.marker(
+                [37.568748573616915,126.9851493859376],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_fd5cd7139c4d4df791ccc1669133bbfd = L.popup({maxWidth: '300'});
+
+            
+                var html_5576cad64b3f4004bca8caf57c2ae721 = $('<div id="html_5576cad64b3f4004bca8caf57c2ae721" style="width: 100.0%; height: 100.0%;">영안빌딩(미샤)</div>')[0];
+                popup_fd5cd7139c4d4df791ccc1669133bbfd.setContent(html_5576cad64b3f4004bca8caf57c2ae721);
+            
+
+            marker_95e7acdde9ae48d2b4ccd7a7fc30c5b9.bindPopup(popup_fd5cd7139c4d4df791ccc1669133bbfd);
+
+            
+        
+    
+
+            var marker_ca697a617601416387f02517135b5dc2 = L.marker(
+                [37.5699696044138,126.98568750376982],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_6d1cab03758e4cec8a3684ebd2f9af36 = L.popup({maxWidth: '300'});
+
+            
+                var html_14a23dd58752494baa0d3cb606377a19 = $('<div id="html_14a23dd58752494baa0d3cb606377a19" style="width: 100.0%; height: 100.0%;">우리은행</div>')[0];
+                popup_6d1cab03758e4cec8a3684ebd2f9af36.setContent(html_14a23dd58752494baa0d3cb606377a19);
+            
+
+            marker_ca697a617601416387f02517135b5dc2.bindPopup(popup_6d1cab03758e4cec8a3684ebd2f9af36);
+
+            
+        
+    
+
+            var marker_b1a07cd063274e0384660b3ef48d8c6f = L.marker(
+                [37.57083848702534,126.9956262179747],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_8839e7efcd8440778d5e03e797fbdbf2 = L.popup({maxWidth: '300'});
+
+            
+                var html_4fdda3a9917f4feeb090a153cc0a2e6d = $('<div id="html_4fdda3a9917f4feeb090a153cc0a2e6d" style="width: 100.0%; height: 100.0%;">종묘공원</div>')[0];
+                popup_8839e7efcd8440778d5e03e797fbdbf2.setContent(html_4fdda3a9917f4feeb090a153cc0a2e6d);
+            
+
+            marker_b1a07cd063274e0384660b3ef48d8c6f.bindPopup(popup_8839e7efcd8440778d5e03e797fbdbf2);
+
+            
+        
+    
+
+            var marker_b044f94f67724b2ba60985bd553085f9 = L.marker(
+                [37.57029119401457,126.99061873346157],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_f2c7fc52457b407bab5238248e842f2d = L.popup({maxWidth: '300'});
+
+            
+                var html_b7acd0e8239b4ef4b2ab6d3844c53078 = $('<div id="html_b7acd0e8239b4ef4b2ab6d3844c53078" style="width: 100.0%; height: 100.0%;">U+</div>')[0];
+                popup_f2c7fc52457b407bab5238248e842f2d.setContent(html_b7acd0e8239b4ef4b2ab6d3844c53078);
+            
+
+            marker_b044f94f67724b2ba60985bd553085f9.bindPopup(popup_f2c7fc52457b407bab5238248e842f2d);
+
+            
+        
+    
+
+            var marker_d5488b9135e34367a9a744e16dc5ebf2 = L.marker(
+                [37.57029119401457,126.99061873346157],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_3343910d55334d568cd4f22b28f76696 = L.popup({maxWidth: '300'});
+
+            
+                var html_b8733bfa9f134ca3b459e59216d52c2a = $('<div id="html_b8733bfa9f134ca3b459e59216d52c2a" style="width: 100.0%; height: 100.0%;">U+</div>')[0];
+                popup_3343910d55334d568cd4f22b28f76696.setContent(html_b8733bfa9f134ca3b459e59216d52c2a);
+            
+
+            marker_d5488b9135e34367a9a744e16dc5ebf2.bindPopup(popup_3343910d55334d568cd4f22b28f76696);
+
+            
+        
+    
+
+            var marker_9260e4536a2d4913a34d5358daacdb98 = L.marker(
+                [37.57271181215469,126.98289942476514],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_85043b87fb5b4d7cbbf4fb2b12222d85 = L.popup({maxWidth: '300'});
+
+            
+                var html_59f6c666f9cb43b291bda499d7d7efcd = $('<div id="html_59f6c666f9cb43b291bda499d7d7efcd" style="width: 100.0%; height: 100.0%;">성종사</div>')[0];
+                popup_85043b87fb5b4d7cbbf4fb2b12222d85.setContent(html_59f6c666f9cb43b291bda499d7d7efcd);
+            
+
+            marker_9260e4536a2d4913a34d5358daacdb98.bindPopup(popup_85043b87fb5b4d7cbbf4fb2b12222d85);
+
+            
+        
+    
+
+            var marker_558b71ec2e364e4793799ab098a90ea9 = L.marker(
+                [37.579242282758294,126.97952735607045],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_3c0e05b6d4194ffea908e7b9edd35bce = L.popup({maxWidth: '300'});
+
+            
+                var html_1905851656fd48818893c4112a87395b = $('<div id="html_1905851656fd48818893c4112a87395b" style="width: 100.0%; height: 100.0%;">금호미술관</div>')[0];
+                popup_3c0e05b6d4194ffea908e7b9edd35bce.setContent(html_1905851656fd48818893c4112a87395b);
+            
+
+            marker_558b71ec2e364e4793799ab098a90ea9.bindPopup(popup_3c0e05b6d4194ffea908e7b9edd35bce);
+
+            
+        
+    
+
+            var marker_06bc107347de475cbc561670fb7532ec = L.marker(
+                [37.58519916025049,126.97133919632157],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_fe60d26124014f13b1ad95ca302ea786 = L.popup({maxWidth: '300'});
+
+            
+                var html_03b5ad3f05b04f47adfeb9e44df078c1 = $('<div id="html_03b5ad3f05b04f47adfeb9e44df078c1" style="width: 100.0%; height: 100.0%;">남원추어탕 맞은편.</div>')[0];
+                popup_fe60d26124014f13b1ad95ca302ea786.setContent(html_03b5ad3f05b04f47adfeb9e44df078c1);
+            
+
+            marker_06bc107347de475cbc561670fb7532ec.bindPopup(popup_fe60d26124014f13b1ad95ca302ea786);
+
+            
+        
+    
+
+            var marker_22ce0461edf5421da2d8a9c806e2d8db = L.marker(
+                [37.57579860405934,126.97102700952424],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_d5820edc669c4b459d7c454d40e04a0e = L.popup({maxWidth: '300'});
+
+            
+                var html_851d73d953fb48bdb152160750ebb1fe = $('<div id="html_851d73d953fb48bdb152160750ebb1fe" style="width: 100.0%; height: 100.0%;">대영빌딩</div>')[0];
+                popup_d5820edc669c4b459d7c454d40e04a0e.setContent(html_851d73d953fb48bdb152160750ebb1fe);
+            
+
+            marker_22ce0461edf5421da2d8a9c806e2d8db.bindPopup(popup_d5820edc669c4b459d7c454d40e04a0e);
+
+            
+        
+    
+
+            var marker_ddbd9841568646909f0dba6a49dcc8b6 = L.marker(
+                [37.570249591117836,126.97949158385843],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_8a89236b7f764e10b649313d358098a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_5771895e7f2e466980fb9eb2988ce029 = $('<div id="html_5771895e7f2e466980fb9eb2988ce029" style="width: 100.0%; height: 100.0%;">픽스딕스.</div>')[0];
+                popup_8a89236b7f764e10b649313d358098a9.setContent(html_5771895e7f2e466980fb9eb2988ce029);
+            
+
+            marker_ddbd9841568646909f0dba6a49dcc8b6.bindPopup(popup_8a89236b7f764e10b649313d358098a9);
+
+            
+        
+    
+
+            var marker_c795f9347bf948159026a214061824fe = L.marker(
+                [37.570708560951005,126.96185975430792],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_86a754251503498babe70b433b60d622 = L.popup({maxWidth: '300'});
+
+            
+                var html_002bc641d43a4504955a291c11d6411d = $('<div id="html_002bc641d43a4504955a291c11d6411d" style="width: 100.0%; height: 100.0%;">세실치과의원</div>')[0];
+                popup_86a754251503498babe70b433b60d622.setContent(html_002bc641d43a4504955a291c11d6411d);
+            
+
+            marker_c795f9347bf948159026a214061824fe.bindPopup(popup_86a754251503498babe70b433b60d622);
+
+            
+        
+    
+
+            var marker_2fdd2149db3a4dd4ae4b337a1c063859 = L.marker(
+                [37.56988722654944,126.9730327562972],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_6e1d26bc6371464b973330960ba56695 = L.popup({maxWidth: '300'});
+
+            
+                var html_934e2178aad5434383576e8b24834603 = $('<div id="html_934e2178aad5434383576e8b24834603" style="width: 100.0%; height: 100.0%;">금호아시아나 1관.</div>')[0];
+                popup_6e1d26bc6371464b973330960ba56695.setContent(html_934e2178aad5434383576e8b24834603);
+            
+
+            marker_2fdd2149db3a4dd4ae4b337a1c063859.bindPopup(popup_6e1d26bc6371464b973330960ba56695);
+
+            
+        
+    
+
+            var marker_b8699b14b6e4491fb7383119762e086b = L.marker(
+                [37.569972040292576,126.9713901771636],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_8871f711d95242289cfa03b68769fa5f = L.popup({maxWidth: '300'});
+
+            
+                var html_b817629cc6434f1dbe1d39fc5830409a = $('<div id="html_b817629cc6434f1dbe1d39fc5830409a" style="width: 100.0%; height: 100.0%;">lg광화문 빌딩</div>')[0];
+                popup_8871f711d95242289cfa03b68769fa5f.setContent(html_b817629cc6434f1dbe1d39fc5830409a);
+            
+
+            marker_b8699b14b6e4491fb7383119762e086b.bindPopup(popup_8871f711d95242289cfa03b68769fa5f);
+
+            
+        
+    
+
+            var marker_4007831a28de4c55bbeaf3107f384dad = L.marker(
+                [37.57288825361479,126.97828956164231],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_322c4ad20bc84e238232da229e525745 = L.popup({maxWidth: '300'});
+
+            
+                var html_e4eabdb4adaa48adbffeaa6396669b08 = $('<div id="html_e4eabdb4adaa48adbffeaa6396669b08" style="width: 100.0%; height: 100.0%;">안경마을 콘텍트</div>')[0];
+                popup_322c4ad20bc84e238232da229e525745.setContent(html_e4eabdb4adaa48adbffeaa6396669b08);
+            
+
+            marker_4007831a28de4c55bbeaf3107f384dad.bindPopup(popup_322c4ad20bc84e238232da229e525745);
+
+            
+        
+    
+
+            var marker_858b4a6a5eee450399e2d4a74438fa66 = L.marker(
+                [37.57513866159,126.95742839895145],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_f350f29599284b4093394444a5e583d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_0e02a1097130431fb2df3a28c248127d = $('<div id="html_0e02a1097130431fb2df3a28c248127d" style="width: 100.0%; height: 100.0%;">세란병원.</div>')[0];
+                popup_f350f29599284b4093394444a5e583d5.setContent(html_0e02a1097130431fb2df3a28c248127d);
+            
+
+            marker_858b4a6a5eee450399e2d4a74438fa66.bindPopup(popup_f350f29599284b4093394444a5e583d5);
+
+            
+        
+    
+
+            var marker_3ce729d1654c4ecb83b053470518ff04 = L.marker(
+                [37.569396473333775,126.99770582864966],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_d507902f4c984747b0bf11299524ab16 = L.popup({maxWidth: '300'});
+
+            
+                var html_90ee4186b2aa43ea83b24b0247529dac = $('<div id="html_90ee4186b2aa43ea83b24b0247529dac" style="width: 100.0%; height: 100.0%;">에이스조명</div>')[0];
+                popup_d507902f4c984747b0bf11299524ab16.setContent(html_90ee4186b2aa43ea83b24b0247529dac);
+            
+
+            marker_3ce729d1654c4ecb83b053470518ff04.bindPopup(popup_d507902f4c984747b0bf11299524ab16);
+
+            
+        
+    
+
+            var marker_138840a1e2ce403a9215205e39102122 = L.marker(
+                [37.57084518181764,126.99853543350594],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_6b4d6af18d9a4b1bbc02fb5c7a1a715f = L.popup({maxWidth: '300'});
+
+            
+                var html_ebdec4e4d0d941f28134840234253022 = $('<div id="html_ebdec4e4d0d941f28134840234253022" style="width: 100.0%; height: 100.0%;">매헌빌딩</div>')[0];
+                popup_6b4d6af18d9a4b1bbc02fb5c7a1a715f.setContent(html_ebdec4e4d0d941f28134840234253022);
+            
+
+            marker_138840a1e2ce403a9215205e39102122.bindPopup(popup_6b4d6af18d9a4b1bbc02fb5c7a1a715f);
+
+            
+        
+    
+
+            var marker_1d37262c86094a929599b9767d547f21 = L.marker(
+                [37.577347777780645,126.9792588602516],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_eb7c039435ad4baeb9795826f3df7be9 = L.popup({maxWidth: '300'});
+
+            
+                var html_ebe0be3a611248278b3c14173d778c1b = $('<div id="html_ebe0be3a611248278b3c14173d778c1b" style="width: 100.0%; height: 100.0%;">경복궁 돌담길 경복궁동문 정류장에서 춘추관앞 방향으로 60M</div>')[0];
+                popup_eb7c039435ad4baeb9795826f3df7be9.setContent(html_ebe0be3a611248278b3c14173d778c1b);
+            
+
+            marker_1d37262c86094a929599b9767d547f21.bindPopup(popup_eb7c039435ad4baeb9795826f3df7be9);
+
+            
+        
+    
+
+            var marker_fc29583e7b6b47a3ab46ba15fcfd7d9b = L.marker(
+                [37.56867506757775,126.99340260436438],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_554b005cef3144b39f5f363c39b3278d = L.popup({maxWidth: '300'});
+
+            
+                var html_38673f4f3f4b4ca29922d6ad570b5b8f = $('<div id="html_38673f4f3f4b4ca29922d6ad570b5b8f" style="width: 100.0%; height: 100.0%;">버스정류장에서 도로 바라보고 좌측20미터 일성툴</div>')[0];
+                popup_554b005cef3144b39f5f363c39b3278d.setContent(html_38673f4f3f4b4ca29922d6ad570b5b8f);
+            
+
+            marker_fc29583e7b6b47a3ab46ba15fcfd7d9b.bindPopup(popup_554b005cef3144b39f5f363c39b3278d);
+
+            
+        
+    
+
+            var marker_9d7fb94f5be04696b2a463600c9d3e41 = L.marker(
+                [37.57031951072183,126.9855129559265],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_69fd79864b9947409fa10566cacecbe1 = L.popup({maxWidth: '300'});
+
+            
+                var html_66786d2d18ea47878a18e15163cfaf09 = $('<div id="html_66786d2d18ea47878a18e15163cfaf09" style="width: 100.0%; height: 100.0%;">우리은행</div>')[0];
+                popup_69fd79864b9947409fa10566cacecbe1.setContent(html_66786d2d18ea47878a18e15163cfaf09);
+            
+
+            marker_9d7fb94f5be04696b2a463600c9d3e41.bindPopup(popup_69fd79864b9947409fa10566cacecbe1);
+
+            
+        
+    
+
+            var marker_ceadceb0660e4d4e85477a2c36e8169e = L.marker(
+                [37.569985073137396,126.9895927339847],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_c48c8a4028784fecbfca50712c548eba = L.popup({maxWidth: '300'});
+
+            
+                var html_012b7d34da5e409b93e9e816004714c8 = $('<div id="html_012b7d34da5e409b93e9e816004714c8" style="width: 100.0%; height: 100.0%;">Tworld 대리점</div>')[0];
+                popup_c48c8a4028784fecbfca50712c548eba.setContent(html_012b7d34da5e409b93e9e816004714c8);
+            
+
+            marker_ceadceb0660e4d4e85477a2c36e8169e.bindPopup(popup_c48c8a4028784fecbfca50712c548eba);
+
+            
+        
+    
+
+            var marker_9efcbd4f78014b01b472332348d89154 = L.marker(
+                [37.570310598668215,126.98552439699829],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_9997fb5a9b9240dea609d20bc4bacaff = L.popup({maxWidth: '300'});
+
+            
+                var html_5c93d6613857477bad1be5204552a8a3 = $('<div id="html_5c93d6613857477bad1be5204552a8a3" style="width: 100.0%; height: 100.0%;">준코 뮤직타운</div>')[0];
+                popup_9997fb5a9b9240dea609d20bc4bacaff.setContent(html_5c93d6613857477bad1be5204552a8a3);
+            
+
+            marker_9efcbd4f78014b01b472332348d89154.bindPopup(popup_9997fb5a9b9240dea609d20bc4bacaff);
+
+            
+        
+    
+
+            var marker_f58ad1b6bcd545c19d4821f864e7bbc2 = L.marker(
+                [37.570310598668215,126.98552439699829],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_8cacd3718dbc4a3e9689c008d2293a6f = L.popup({maxWidth: '300'});
+
+            
+                var html_e6ebec24261146eb89918f8ab62154a2 = $('<div id="html_e6ebec24261146eb89918f8ab62154a2" style="width: 100.0%; height: 100.0%;">준코 뮤직타운</div>')[0];
+                popup_8cacd3718dbc4a3e9689c008d2293a6f.setContent(html_e6ebec24261146eb89918f8ab62154a2);
+            
+
+            marker_f58ad1b6bcd545c19d4821f864e7bbc2.bindPopup(popup_8cacd3718dbc4a3e9689c008d2293a6f);
+
+            
+        
+    
+
+            var marker_6f08a95fbe1f4c8691abd71fe51301d2 = L.marker(
+                [37.56983327754117,126.9761578394427],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_0384e954f2774e92ad7d539476f0f5b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_0dca4c5c9c384ce1b3dfae6dc0aa16ea = $('<div id="html_0dca4c5c9c384ce1b3dfae6dc0aa16ea" style="width: 100.0%; height: 100.0%;">광화문 빌딩</div>')[0];
+                popup_0384e954f2774e92ad7d539476f0f5b9.setContent(html_0dca4c5c9c384ce1b3dfae6dc0aa16ea);
+            
+
+            marker_6f08a95fbe1f4c8691abd71fe51301d2.bindPopup(popup_0384e954f2774e92ad7d539476f0f5b9);
+
+            
+        
+    
+
+            var marker_8cc3ae9cf02a4293a3750d5c2fccc4b6 = L.marker(
+                [37.57346674060538,127.0006059696071],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_4d7776805aba44e68bcb8e73953a6351 = L.popup({maxWidth: '300'});
+
+            
+                var html_d96e6ed0a8fe42a782afdf26a0de93a8 = $('<div id="html_d96e6ed0a8fe42a782afdf26a0de93a8" style="width: 100.0%; height: 100.0%;">서울보증보험 조형물</div>')[0];
+                popup_4d7776805aba44e68bcb8e73953a6351.setContent(html_d96e6ed0a8fe42a782afdf26a0de93a8);
+            
+
+            marker_8cc3ae9cf02a4293a3750d5c2fccc4b6.bindPopup(popup_4d7776805aba44e68bcb8e73953a6351);
+
+            
+        
+    
+
+            var marker_053ecc9dca924acabd89cf4059b60ab1 = L.marker(
+                [37.573269180936066,127.00281613185898],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_9c2638dd6c5d41a192fbe6ab86d61fc9 = L.popup({maxWidth: '300'});
+
+            
+                var html_205944d26b4a4e4b96198b854d97bb6f = $('<div id="html_205944d26b4a4e4b96198b854d97bb6f" style="width: 100.0%; height: 100.0%;">효제초교 지하주차장입구</div>')[0];
+                popup_9c2638dd6c5d41a192fbe6ab86d61fc9.setContent(html_205944d26b4a4e4b96198b854d97bb6f);
+            
+
+            marker_053ecc9dca924acabd89cf4059b60ab1.bindPopup(popup_9c2638dd6c5d41a192fbe6ab86d61fc9);
+
+            
+        
+    
+
+            var marker_c612a9d592794abdbc9439fd38f0c2da = L.marker(
+                [37.57266487076198,127.00594865775517],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_5164680bbcd8491f9f4d73bad2f06eda = L.popup({maxWidth: '300'});
+
+            
+                var html_0025d56e2bb449a4a06df826052c9311 = $('<div id="html_0025d56e2bb449a4a06df826052c9311" style="width: 100.0%; height: 100.0%;">대일빌딩</div>')[0];
+                popup_5164680bbcd8491f9f4d73bad2f06eda.setContent(html_0025d56e2bb449a4a06df826052c9311);
+            
+
+            marker_c612a9d592794abdbc9439fd38f0c2da.bindPopup(popup_5164680bbcd8491f9f4d73bad2f06eda);
+
+            
+        
+    
+
+            var marker_3e3bd3efe8c94495a6001ca0795c96af = L.marker(
+                [37.57364041293488,127.00516588399343],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_3adf56627cd04219b9c41476ff396d86 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d985402dc2a452a86712a818d1a0264 = $('<div id="html_8d985402dc2a452a86712a818d1a0264" style="width: 100.0%; height: 100.0%;">운촌빌딩</div>')[0];
+                popup_3adf56627cd04219b9c41476ff396d86.setContent(html_8d985402dc2a452a86712a818d1a0264);
+            
+
+            marker_3e3bd3efe8c94495a6001ca0795c96af.bindPopup(popup_3adf56627cd04219b9c41476ff396d86);
+
+            
+        
+    
+
+            var marker_68e107b886af4e608576f0a62828763a = L.marker(
+                [37.569661607432835,126.98969898441098],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_3cff0d4b459d4bd891d1a0bd4e03bda3 = L.popup({maxWidth: '300'});
+
+            
+                var html_1d61d68dda2b4596a6fe773f95b0f871 = $('<div id="html_1d61d68dda2b4596a6fe773f95b0f871" style="width: 100.0%; height: 100.0%;">국일관</div>')[0];
+                popup_3cff0d4b459d4bd891d1a0bd4e03bda3.setContent(html_1d61d68dda2b4596a6fe773f95b0f871);
+            
+
+            marker_68e107b886af4e608576f0a62828763a.bindPopup(popup_3cff0d4b459d4bd891d1a0bd4e03bda3);
+
+            
+        
+    
+
+            var marker_443d6555965545d893af66b8115dd377 = L.marker(
+                [37.56879641659795,126.98967671116078],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_bd79a86d2b7c4707bd913e1d66f79ed3 = L.popup({maxWidth: '300'});
+
+            
+                var html_dcb7385a803e4a9e97576fd8bbd1dc5e = $('<div id="html_dcb7385a803e4a9e97576fd8bbd1dc5e" style="width: 100.0%; height: 100.0%;">성제종합휘장타운</div>')[0];
+                popup_bd79a86d2b7c4707bd913e1d66f79ed3.setContent(html_dcb7385a803e4a9e97576fd8bbd1dc5e);
+            
+
+            marker_443d6555965545d893af66b8115dd377.bindPopup(popup_bd79a86d2b7c4707bd913e1d66f79ed3);
+
+            
+        
+    
+
+            var marker_ad37916a1f7f4bf3b6a03ab796732969 = L.marker(
+                [37.57607381816317,126.98407636859098],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_059170ca6bc249c29f8ee361d4d61899 = L.popup({maxWidth: '300'});
+
+            
+                var html_9da0703138d6430cb9da07fb7c98c6e9 = $('<div id="html_9da0703138d6430cb9da07fb7c98c6e9" style="width: 100.0%; height: 100.0%;">안국역 6번 출구 건너편</div>')[0];
+                popup_059170ca6bc249c29f8ee361d4d61899.setContent(html_9da0703138d6430cb9da07fb7c98c6e9);
+            
+
+            marker_ad37916a1f7f4bf3b6a03ab796732969.bindPopup(popup_059170ca6bc249c29f8ee361d4d61899);
+
+            
+        
+    
+
+            var marker_b01a704da7334558a682b63254cfde03 = L.marker(
+                [37.572323491419496,126.98384430465852],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_fc4b3a19909b4c169b120ffde0f38819 = L.popup({maxWidth: '300'});
+
+            
+                var html_90fd490bab8c48f7a3ecca80ec55cfef = $('<div id="html_90fd490bab8c48f7a3ecca80ec55cfef" style="width: 100.0%; height: 100.0%;">농협중앙회 앞</div>')[0];
+                popup_fc4b3a19909b4c169b120ffde0f38819.setContent(html_90fd490bab8c48f7a3ecca80ec55cfef);
+            
+
+            marker_b01a704da7334558a682b63254cfde03.bindPopup(popup_fc4b3a19909b4c169b120ffde0f38819);
+
+            
+        
+    
+
+            var marker_913992169d684ed5b04dc5ff09e73f73 = L.marker(
+                [37.579463741864934,126.97285594574947],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_aa6d8922e15a46bbaa5dc610ee7f3bc2 = L.popup({maxWidth: '300'});
+
+            
+                var html_08767fa33b1647d4b05093ce9ae7701e = $('<div id="html_08767fa33b1647d4b05093ce9ae7701e" style="width: 100.0%; height: 100.0%;">SINDO 앞</div>')[0];
+                popup_aa6d8922e15a46bbaa5dc610ee7f3bc2.setContent(html_08767fa33b1647d4b05093ce9ae7701e);
+            
+
+            marker_913992169d684ed5b04dc5ff09e73f73.bindPopup(popup_aa6d8922e15a46bbaa5dc610ee7f3bc2);
+
+            
+        
+    
+
+            var marker_18587587a7424c48994725d0cd9e1370 = L.marker(
+                [37.58665955327744,126.98495154903124],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_8f1643e23d194923a12c6d941f82efcb = L.popup({maxWidth: '300'});
+
+            
+                var html_029cc5346a88471896302afdd37dc263 = $('<div id="html_029cc5346a88471896302afdd37dc263" style="width: 100.0%; height: 100.0%;">감사원뒷길</div>')[0];
+                popup_8f1643e23d194923a12c6d941f82efcb.setContent(html_029cc5346a88471896302afdd37dc263);
+            
+
+            marker_18587587a7424c48994725d0cd9e1370.bindPopup(popup_8f1643e23d194923a12c6d941f82efcb);
+
+            
+        
+    
+
+            var marker_a10d23289cfb42819bd3528201349193 = L.marker(
+                [37.58283058369678,126.98500354008432],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_555bcb2501df407cabab6e8e300e4caf = L.popup({maxWidth: '300'});
+
+            
+                var html_bcf54e06f10648a484266457a9ce12c6 = $('<div id="html_bcf54e06f10648a484266457a9ce12c6" style="width: 100.0%; height: 100.0%;">서울 닭 문화관</div>')[0];
+                popup_555bcb2501df407cabab6e8e300e4caf.setContent(html_bcf54e06f10648a484266457a9ce12c6);
+            
+
+            marker_a10d23289cfb42819bd3528201349193.bindPopup(popup_555bcb2501df407cabab6e8e300e4caf);
+
+            
+        
+    
+
+            var marker_63428ee403b74242865a75c56a2f02f4 = L.marker(
+                [37.580529576148145,126.98671039249953],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c66379fd817470f9b8e2788aad8518f);
+            
+    
+            var popup_722d49a15c294ca0a6335ce533260114 = L.popup({maxWidth: '300'});
+
+            
+                var html_7b6f0b12e4144a5e85c8618148abc1da = $('<div id="html_7b6f0b12e4144a5e85c8618148abc1da" style="width: 100.0%; height: 100.0%;">애지중지</div>')[0];
+                popup_722d49a15c294ca0a6335ce533260114.setContent(html_7b6f0b12e4144a5e85c8618148abc1da);
+            
+
+            marker_63428ee403b74242865a75c56a2f02f4.bindPopup(popup_722d49a15c294ca0a6335ce533260114);
+
+            
+        
+</script>
